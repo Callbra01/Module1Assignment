@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - door
   - Killzone
   - NPC
   - PlayerAttackArea
@@ -14,6 +13,8 @@ TagManager:
   - Collectable
   - PlayerInteractArea
   - ClothesPickup
+  - Level2Door
+  - Level1Door
   layers:
   - Default
   - TransparentFX

@@ -322,9 +322,13 @@ public class PlayerController : MonoBehaviour
         }
 
         // If player collides with the exit door, and has a key, load win scene
-        if (collision.gameObject.tag == "door" && hasKey)
+        if (collision.gameObject.tag == "Level2Door" && hasKey)
         {
             SceneManager.LoadScene(1);
+        }
+        else if (collision.gameObject.tag == "Level1Door" && hasKey)
+        {
+            SceneManager.LoadScene(4);
         }
 
         if (collision.gameObject.tag == "jumpBoost")
